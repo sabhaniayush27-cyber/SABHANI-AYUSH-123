@@ -1,0 +1,18 @@
+#include <stdio.h>
+ int main (){
+ float a,b,ans;
+ printf("enter value of a = ");
+ scanf("%f",&a);
+ printf("enter value of b = ");
+ scanf("%f",&b);
+ ans=a+b;
+ printf("a+b = %f",ans);
+ ans=a-b;
+ printf("\na-b = %f",ans);
+ ans=a/b;
+ printf("\na/b = %f",ans);
+ ans=a*b;
+ printf("\na*b = %f",ans);
+ return 0;
+ }
+ 
