@@ -1,0 +1,9 @@
+ #include <stdio.h>
+ int main (){
+ int a,b,ans;
+ printf("enter value of hour = ");
+ scanf("%d",&a);
+ ans=a*60;
+ printf("min = %d",ans);
+ return 0;
+}
