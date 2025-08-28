@@ -1,0 +1,12 @@
+ #include <stdio.h>
+ int main(){
+ float p,n,r;
+ printf("enter value for p =");
+ scanf("%f",&p);
+ printf("enter value for n =");
+ scanf("%f",&n);
+ printf("enter value for r =");
+ scanf("%f",&r);
+ printf("your interest is =%f", p*n*r/100);
+ return 0;
+ }
