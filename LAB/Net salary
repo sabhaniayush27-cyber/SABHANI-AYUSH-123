@@ -1,0 +1,14 @@
+ #include <stdio.h>
+ int main(){
+ float gross,allowance,deduction,net_salary;
+ printf("enter your gross salary =");
+ scanf("%f",&gross);
+ printf("enter your allowance =");
+ scanf("%f",&allowance);
+ printf("enter your deduction =");
+ scanf("%f",&deduction);
+ net_salary = gross + allowance*0.10-deduction*0.3;
+ printf("your net salary = %f",net_salary);
+ return 0;
+ }
+ 
