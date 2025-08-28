@@ -1,0 +1,9 @@
+#include <stdio.h>
+ int main(){
+ float net_sale,gross;
+ printf("enter your gross sale=");
+ scanf("%f",&gross);
+ net_sale =gross-(0.10*gross);
+ printf("your net sale is=%f",net_sale);
+ return 0;
+ }
