@@ -1,0 +1,14 @@
+ #include <stdio.h>
+ int main (){
+ float area,perimeter,lanth,breadth;
+ printf("enter a lanth of rectangle lanth= ");
+ scanf("%f",&lanth);
+ printf("enter a value for rectangle breadth =");
+ scanf("%f",&breadth);
+ area =lanth*breadth;
+ perimeter = 2*(lanth+breadth);
+ printf("your area is =%f",area);
+ printf("\nyour perimeter =%f",perimeter);
+ return 0;
+ }
+ 
