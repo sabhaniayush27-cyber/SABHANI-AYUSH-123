@@ -1,0 +1,12 @@
+#include <stdio.h>
+ int main (){
+ float area,perimeter,lanth,breadth;
+ printf("enter a lanth of square lanth= ");
+ scanf("%f",&lanth);
+ area =lanth*lanth;
+ perimeter = 4*lanth;
+ printf("your area is =%f",area);
+ printf("\nyour perimeter =%f",perimeter);
+ return 0;
+ }
+ 
